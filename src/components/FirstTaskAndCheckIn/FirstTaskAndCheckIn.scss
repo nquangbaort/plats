@@ -1,0 +1,11 @@
+@import '@scss/variables';
+
+.first-task-and-check-in{
+    background-color : $first-task-and-check-in;
+    
+    &__title{
+        color: $black-2;
+        text-align: center;
+        padding : 2rem 0;
+    };
+}

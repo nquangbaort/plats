@@ -1,0 +1,13 @@
+@import '@scss/variables';
+
+.version-and-mission_box{
+    &__title {
+        color: $black-2;
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+    &__description {
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+}

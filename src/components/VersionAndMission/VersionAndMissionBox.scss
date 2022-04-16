@@ -1,0 +1,10 @@
+@import '@scss/variables';
+
+.version-and-mission__box{
+   margin : 0 10%;
+   text-align: center;
+    & > .col{
+       width: 50%;
+       margin: auto;
+    }
+}

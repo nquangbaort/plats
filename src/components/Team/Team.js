@@ -13,15 +13,15 @@ const members = [
     name: "Hung Nguyen",
     role: "CEO",
     description:
-      "I am the Founder of Plats Network. I am in charge of visualizing ideas, gathering teams, assigning tasks suitable in accordance with member’s desire and capability and encouraging them to fulfill their tasks. I have been spending 10 years on software development in Japan and over 8 years starting my own business.",
-    linkedln: "https://www.linkedin.com/in/nghilt/",
+      "Graduated from Hanoi University of Science and Technology, 10 years of experience in designing hardware and software for industrial robots and Diamond Dicing Saw in Japan. Being the Founder of Vietnam AI Next which is invested by Nakashima Corporation Japan.",
+    linkedln: "https://www.linkedin.com/in/marcusnguyen68/",
   },
   {
     avatar: <StaticImage src="../../images/team-thanhnghi.png" alt="avatar" />,
     name: "Nghi Nguyen",
     role: "CTO",
     description:
-      "I work as a system engineer on Plats Network Project. Primarily, I define the system's specification and support my team's members in resolving technical issues. Working on computer networking industry for more than 10 years, has skilled myself in Advertising System Engineer and Blockchain Technology",
+      "As an experienced Chief Technology Officer at Plats, Nghi dedicated himself to the computer networking industry with more than 5 years skilled in Advertising System engineer and Blockchain Technology.",
     linkedln: "https://www.linkedin.com/in/nghilt/",
   },
   {
@@ -29,15 +29,15 @@ const members = [
     name: "Mai Phan",
     role: "CMO",
     description:
-      "I have been working on designing and coding smart contract, based on Rust programming language at Plats Network.",
-    linkedln: "https://www.linkedin.com/in/dinh-dung-880bb0219/",
+      "Graduated from Hanoi University of Science and Technology with a Bachelor's degree and National University of Economics with MBA degree, has over 10 years of experience in managerial and business development roles.",
+    linkedln: "https://www.linkedin.com/in/mai-phan-1b8a5354/",
   },
   {
     avatar: <StaticImage src="../../images/team-quanglien.png" alt="avatar" />,
     name: "Lien Le",
     role: "Blockchain Developer",
     description:
-      "I'm a blockchain developer, building smart contract at Plats Network.",
+      "Graduated from Hanoi University of Science and Technology, has nearly 10 years of experience in the industry with many different positions from developer to manager, of which more than 1 year of programming on blockchain.",
     linkedln: "https://www.linkedin.com/in/thomas-le-3b3498146/",
   },
   {
@@ -53,7 +53,7 @@ const members = [
     name: "Thoai Huynh",
     role: "Fullstack Developer",
     description:
-      "Graduated from the HCM University of Science (HCMUS); almost 4 years of web experience; undertaking various positions, from developer to team leader. Now, I'm working on system frontend.",
+      "Graduated from the HCM University of Science (HCMUS), nearly 4 years of web experience with many different positions from developer to leader.",
     linkedln: "https://www.linkedin.com/in/thoai-huynh-5035a015b/",
   },
   {
@@ -74,7 +74,7 @@ const members = [
     avatar: <StaticImage src="../../images/team-hoangyen.png" alt="avatar" />,
     name: "Yen Than",
     role: "Content Specialist",
-    description: "I am a content contributor and PR channels manager at Plats Network, aiming to expand our community quickly and properly. Content Marketing (Plats Network); External Specialist Intern (HUST); Teaching Assistant (Wallaby House English)",
+    description: "Senior at Hanoi University of Science and Technology (HUST). Go-getter for innovative, novel, and sustainable ideas. Vivid experience in External Affairs, ELT, Public Relations.",
     linkedln: "https://www.linkedin.com/in/yen-t-14005b119/",
   },
   {

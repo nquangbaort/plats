@@ -1,0 +1,11 @@
+@import '@scss/variables';
+
+.network-provider{
+    background-color : $white;
+    padding-bottom: 2rem;
+    &__title{
+        color: $black-2;
+        text-align: center;
+        padding: 2rem;
+    }
+}

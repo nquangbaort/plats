@@ -8,27 +8,39 @@
 
   &__grouptext {
     position: absolute;
-    top: 30%;
-    left: 0%;
+    top: 26%;
+    left: 50%;
     z-index: 100;
-    background: #7BA9FB;
-    opacity: 0.6;
-    border-radius: 0 25px 25px 0;
-    padding: 1rem 2rem 1rem 5rem;
-
+    transform: translateX(-50%) !important;
     color: $white;
+    text-align: center;
 
     &__title {
       font-weight: bold;
       font-size: 50px;
       line-height: 80px;
       text-transform: uppercase;
+      text-align: center;
     }
 
     &__sub {
       font-weight: bold;
       font-size: 30px;
       line-height: 48px;
+    }
+    .btn {
+      &__find-more {
+        background-color: $yellow-2;
+        color: $black-1;
+        border: 2px solid #FFFFFF;
+        border-radius: 15px;
+        width: 25%;
+        margin-top: 20px;
+        &:hover {
+          background-color: $yellow-1;
+          color: $black-1;
+        }
+      }
     }
   }
 

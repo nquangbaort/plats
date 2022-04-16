@@ -1,0 +1,15 @@
+@import '@scss/variables';
+
+.first-task-and-check-in-box {
+    width: 70%;
+    margin: 0 auto !important;
+    &__item {
+        box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        height: 455px;
+        margin-bottom: 2rem;
+    }
+    & > div {
+        padding-bottom: 2rem;
+    }
+}

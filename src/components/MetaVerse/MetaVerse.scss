@@ -1,0 +1,29 @@
+@import "@scss/variables";
+
+.meta-verse{
+    position: relative;
+    width: 100%;
+    .gatsby-image-wrapper{
+        width: 100% !important;
+    }
+    &__content{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        background-color: #231D1E;
+        opacity: 0.7;
+        z-index: 1000;
+        color: $white;
+        padding: 2rem;
+        @media screen and (min-width: 1300px){
+            width: 25%;
+            margin: 0 auto;
+        }
+        border-radius: 20px;
+    }
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+}

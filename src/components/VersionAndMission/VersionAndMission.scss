@@ -1,0 +1,13 @@
+@import '@scss/variables';
+
+.version-and-mission {
+    width: 100%;
+    background-color: #EEF4F9;
+    padding-bottom: 2rem;
+
+    &__title {
+        color: $black-2;
+        margin: 2rem;
+        text-align: center;
+    }
+}

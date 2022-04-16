@@ -1,0 +1,19 @@
+@import '@scss/variables';
+
+.how-to-play__item{
+    padding-bottom: 2rem;
+    display: flex;
+    & .how-to-play__item__container{
+        align-self: center;
+        padding: 0 30px;
+        width: 70%;
+    }
+    @media screen and (max-width: 768px){
+        display: block;
+        & .how-to-play__item__container{
+            width: 100%;
+            padding: 0;
+            padding-bottom: 2rem;
+        }
+    }
+}

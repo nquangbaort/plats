@@ -1,0 +1,23 @@
+@import '@scss/variables';
+
+.network-provider__box{
+    text-align: left;
+     & > .network-provider__container{
+        margin-bottom: 4rem;
+        width: 70%;
+        margin: 0 auto;
+        @media screen and (max-width: 768px){
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+    &-title{
+        color: $black-2;
+        margin-bottom: 2rem;
+    }
+    &-description{
+        text-align: left;
+        margin-bottom: 2rem;
+        width: 70%;
+    }
+}

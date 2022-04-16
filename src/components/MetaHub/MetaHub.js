@@ -23,13 +23,12 @@ const MetaHub = ({ image }) => {
           <GatsbyImage image={image} alt="Metahub image" />
         </Col>
         <Col data-aos="fade-up" data-aos-easing="ease-in-sine">
-          <h1 className="meta-hub__title mb-3 d-none d-sm-block">MetaHub</h1>
+          <h1 className="meta-hub__title mb-3 d-none d-sm-block">What’s Plats Network</h1>
           <h4 className="meta-hub__description">
-            Plats – a NEAR-based platform to create a playground to connect
-            Clients, Creators, Referrers, and Users inside a Meta Hub – a
-            scalable Hub including Game Hub, Learning Hub, Action Hub, Video Hub
-            and Metaverse Hub, where all above stakeholders can benefit via
-            networking in the platform.
+            Plats Network is a Move2Earn Platform that
+          </h4>
+          <h4 className="meta-hub__description">
+            changes your lifestyle and your business
           </h4>
         </Col>
       </Row>

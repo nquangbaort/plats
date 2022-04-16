@@ -2,7 +2,6 @@ import * as React from "react"
 import { graphql } from "gatsby"
 import { getImage } from "gatsby-plugin-image"
 
-import AnyToEarn from "@components/AnyToEarn"
 import Banner from "@components/Banner"
 import Layout from "@components/Layout"
 import MetaHub from "@components/MetaHub"
@@ -15,8 +14,13 @@ import Roadmap from "@components/Roadmap"
 import ScrollToTop from "@components/ScrollToTop"
 import LearningHub from "@components/LearningHub"
 import Seo from "@components/seo"
-
+import VersionAndMission from "@components/VersionAndMission"
 import useDevice from "@hooks/useDevice"
+import NetworkProvider from "@components/NetworkProvider"
+import HowToPlay from "@components/HowToPlay"
+import FirstTaskAndCheckIn from "../components/FirstTaskAndCheckIn"
+import MetaVerse from "../components/MetaVerse"
+import ForClient from "../components/ForClient"
 import "@scss/style.scss"
 
 
@@ -25,10 +29,10 @@ const IndexPage = ({ data }) => {
   
   const { isMobile, isTablet } = useDevice()
 
-  const bannerImage = (isMobile || isTablet) ? getImage(data.bannerMobile) : getImage(data.banner) 
+  const bannerImage = (isMobile || isTablet) ? getImage(data.bannerMobile) : getImage(data.banner)
   const metahubImage = getImage(data.metahub)
   const roadmapImage = isMobile ? getImage(data.roadmapVertical) :getImage(data.roadmapHorizontal)
-  const metaverseImage = getImage(data.metaverse)
+  const metaVerseImage = getImage(data.metaVerse)
   const learningHubImages = [
     getImage(data.learningHub1),
     getImage(data.learningHub2),
@@ -62,11 +66,12 @@ const IndexPage = ({ data }) => {
       <Seo title="Plats Network" />
       <Banner image={bannerImage} />
       <MetaHub image={metahubImage} />
-      <AnyToEarn />
-      <MetaPool image={metaverseImage} />
-      <GameHub />
-      <LearningHub images={learningHubImages} />
-      <WhyPlats />
+      <VersionAndMission />
+      <NetworkProvider />
+      <HowToPlay/>
+      <FirstTaskAndCheckIn />
+      <MetaVerse image={metaVerseImage}/>
+      <ForClient />
       <Roadmap image={roadmapImage} />
       <Backer />
       <Team />
