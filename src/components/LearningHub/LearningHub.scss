@@ -1,0 +1,20 @@
+@import "@scss/variables";
+
+.learning-hub {
+    padding: 3.75rem 0 4rem 0;
+    background: $cyan;
+    text-align: center;
+
+    &__title {
+        color: $black-3;
+    }
+    
+    &__box {
+        margin-bottom: 2rem;
+    }
+
+    &__name {
+        color: $black-3;
+        font-weight: bold !important;
+    }
+}

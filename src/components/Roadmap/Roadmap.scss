@@ -1,0 +1,15 @@
+@import "@scss/variables";
+
+.roadmap {
+    margin-bottom: 3rem;
+
+    &__title {
+        text-align: center;
+        color: $black-3;
+        margin-bottom: 3rem;
+    }
+
+    &__image {
+        margin: 0 auto !important;
+    }
+}

@@ -1,0 +1,61 @@
+module.exports = {
+  siteMetadata: {
+    title: `Plats Network`,
+    description: `Plats – a NEAR-based platform to create a playground to connect Clients, Creators, Referrers, and Users inside a Meta Hub – a scalable Hub including Game Hub, Learning Hub, Action Hub, Video Hub and Metaverse Hub, where all above stakeholders can benefit via networking in the platform.`,
+    author: `plats-network`,
+    siteUrl: `https://plats-network.netlify.app/#overview`,
+  },
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
+        start_url: `/`,
+        background_color: `#663399`,
+        // This will impact how browsers show your PWA/website
+        // https://css-tricks.com/meta-theme-color-and-trickery/
+        // theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+      },
+    },
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          "@src": "src",
+          "@components": "src/components",
+          "@hooks": "src/hooks",
+          "@pages": "src/pages",
+          "@scss": "src/scss",
+          "@templates": "src/templates",
+          "@static": `${__dirname}/static`
+        },
+        extensions: ["js", "scss"]
+      }
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /images/
+        }
+      }
+    },
+    'gatsby-plugin-breakpoints'
+  ],
+}

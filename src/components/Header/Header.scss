@@ -1,0 +1,50 @@
+@import "@scss/variables";
+
+.navbar {
+  padding: 5rem;
+  opacity: 0.9;
+  transition: transform 0.4s;
+
+  &--disappear {
+    transform: translate3d(0, -100%, 0);
+  }
+
+  .nav-link {
+    color: $white !important;
+    margin-right: 4rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+  }
+
+  .btn {
+    &__connect {
+      background-color: $yellow-2;
+      color: $black-1;
+      border: 2px solid #FFFFFF;
+      border-radius: 15px;
+
+      &:hover {
+        background-color: $yellow-1;
+        color: $black-1;
+      }
+    }
+  }
+
+  .show {
+    .btn {
+      &__connect {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  &__scroll-up {
+    transform: none;
+  }
+
+  &__scroll-down {
+    transform: translate3d(0, -100%, 0);
+  }
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira&family=Saira+Condensed');
+
+$black-1: #000000;
+$black-2: #180D2B;
+$black-3: #1D1D1D;
+
+$gray-1: #414C5C;
+$gray-2: #5D656D;
+$gray-3: #99A4AA;
+$gray-4: #C1CACD;
+$gray-5: #DFEAEE;
+$gray-6: #EEF4F9;
+$gray-7: #F5FBFF;
+
+$blue-1: #0067C6;
+$blue-2: #258DFA;
+$blue-3: #479CF6;
+
+$yellow-1: #f5c43d;
+$yellow-2: #F8DA88;
+
+
+$white: #ffffff;
+$purple: #715B85;
+$green: #166C96;
+$teal: #7ADA90;
+$cyan: #7CCAE6;
+$pink: #F6469A;
+$limegreen: #B1E9C1;
+
+
+
+$theme-gradient-colors: (
+  primary: linear-gradient(90deg, #6CB9FF 1.47%, #0067C6 98.18%),
+  danger: linear-gradient(72.39deg, #EC2986 -5.18%, #AC035B 98.44%),
+);
+
+
+$font-family-sans-serif: 'Saira', sans-serif;
+$font-family-serif: 'Saira', serif;
+$font-family-monospace: 'Saira', monospace;
+$default-font-size: 1rem;
+$default-opacity: 0.8;
+

@@ -1,0 +1,36 @@
+@import "@scss/variables";
+
+.backer {
+  margin-bottom: 5rem;
+  padding: 0 1rem;
+
+  &__title {
+    color: $black-3;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  &__box {
+    position: relative;
+    text-align: center;
+    background: #DDE8f1;
+    border-radius: 0.625rem;
+    height: 5.5rem;
+    margin-bottom: 2rem;
+
+    .gatsby-image-wrapper {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      mix-blend-mode: multiply;
+    }
+  }
+}
+
+@media (min-width: 1300px) {
+  .backer {
+      padding: 0 15rem;
+  }
+}

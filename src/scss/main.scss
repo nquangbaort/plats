@@ -1,0 +1,47 @@
+@import './variables';
+
+body {
+    font-family: $font-family-sans-serif;
+    background-color: #EEF4F9 !important;
+}
+
+h1 {
+    font-size: calc(#{$default-font-size} * 2.625);
+    line-height: calc(#{$default-font-size} * 4.125);
+}
+
+h2 {
+    font-size: calc(#{$default-font-size} * 1.5);
+    line-height: calc(#{$default-font-size} * 2.375);
+}
+
+h3 {
+    font-size: calc(#{$default-font-size} * 1.25);
+    line-height: calc(#{$default-font-size} * 1.9375);
+}
+
+h4 {
+    font-size: calc(#{$default-font-size} * 1.125);
+    line-height: calc(#{$default-font-size} * 1.75)
+}
+
+h5 {
+    font-size: calc(#{$default-font-size} * 0.875);
+    line-height: calc(#{$default-font-size} * 1.375)
+}
+
+p {
+    font-size: $default-font-size;
+    line-height: calc(#{$default-font-size} * 1.5);
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+  }
+  

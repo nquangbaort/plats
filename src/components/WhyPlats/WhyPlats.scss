@@ -1,0 +1,31 @@
+@import "@scss/variables";
+
+.why-plats {
+  padding: 3.75rem 0 2rem 0;
+  background-color: $yellow-2;
+  text-align: center;
+  margin-bottom: 3.5rem;
+
+  &__title {
+    color: $black-3;
+    height: 6rem;
+    overflow: hidden;
+  }
+
+  &__description {
+    color: $black-3;
+    margin-bottom: 5rem;
+  }
+
+  & .circle {
+    margin: 0 auto 2rem auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .why-plats {
+    &__title {
+      height: 3rem;
+    }
+  }
+}

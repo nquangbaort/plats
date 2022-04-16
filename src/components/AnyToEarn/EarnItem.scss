@@ -1,0 +1,21 @@
+@import "@scss/variables";
+
+.earn-item {
+  margin-bottom: 5rem;
+
+  &__title {
+    color: $black-3;
+    margin: 3.375rem auto 0.8rem auto;
+  }
+
+  &__description {
+    color: $black-3;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: "575px") {
+  .circle {
+    margin: 0 auto;
+  }
+}

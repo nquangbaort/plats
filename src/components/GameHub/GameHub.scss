@@ -1,0 +1,30 @@
+@import "@scss/variables";
+
+.game-hub {
+    background-color: $gray-1;
+    background-image: url("../../../static/game-hub.png");
+    padding-top: 7.825rem;
+    padding-bottom: 11.25rem;
+
+    &__title {
+        margin-bottom: 3.19rem;
+        
+        a {
+            color: $white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: $blue-3;
+        }
+    }
+}
+
+.icon {
+    &__hand {
+        transform: rotate(90deg);
+        color: $blue-3;
+        width: 2rem;
+        height: 2rem;
+    }
+}

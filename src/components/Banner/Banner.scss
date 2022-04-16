@@ -1,0 +1,87 @@
+@import "@scss/variables";
+
+.banner {
+  .gatsby-image-wrapper {
+    position: relative;
+    height: 100vh;
+  }
+
+  &__grouptext {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    z-index: 100;
+    background: #7BA9FB;
+    opacity: 0.6;
+    border-radius: 0 25px 25px 0;
+    padding: 1rem 2rem 1rem 5rem;
+
+    color: $white;
+
+    &__title {
+      font-weight: bold;
+      font-size: 50px;
+      line-height: 80px;
+      text-transform: uppercase;
+    }
+
+    &__sub {
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 48px;
+    }
+  }
+
+  // &__grouptex {
+  //   position: absolute;
+  //   top: 7rem;
+  //   left: 5rem;
+  //   z-index: 100;
+
+  //   &__plats {
+  //     font-weight: bold;
+  //     font-size: 138px;
+  //     line-height: 130px;
+  //     color: $white;
+  //   }
+
+  //   &__network {
+  //     font-size: 81px;
+  //     line-height: 100px;
+  //     color: $white;
+  //   }
+
+  //   &__sub {
+  //     font-size: 22px;
+  //     line-height: 24px;
+
+  //     letter-spacing: 0.24em;
+  //     color: $blue-1;
+  //   }
+  // }
+
+
+  &__arrow {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%, 0px);
+
+    svg {
+      color: $black-1;
+      width: 32px;
+      height: 32px;
+      transition: width 1s, height 1s, transform 1s;
+    }
+
+    &:hover {
+      cursor: pointer;
+
+      svg {
+        width: 48px;
+        height: 48px;
+        transform: rotate(360deg);
+      }
+    }
+  }
+}

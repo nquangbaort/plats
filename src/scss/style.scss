@@ -1,0 +1,15 @@
+
+@import "~bootstrap/scss/bootstrap";
+
+
+/* === Import template variables === */
+@import 'variables';
+/*-------------------------------------------------------------------*/
+
+/* === Core Styles === */
+
+
+@import 'normalize';
+@import 'reset';
+@import 'main.scss';
+/*-------------------------------------------------------------------*/

@@ -1,0 +1,115 @@
+@import "@scss/variables";
+
+$default-height: 33.125rem;
+$container-width: 70.25rem;
+$container-height: 41.125rem;
+
+.meta-pool {
+  position: relative;
+  width: 100%;
+
+  background-color: $limegreen;
+
+  &__right-parallelogram {
+    position: absolute;
+    top: -4rem;
+    left: 0rem;
+  }
+
+
+  &__left-col {
+    height: $default-height;
+  }
+
+  &__right-col {
+    svg {
+      animation: rotate-s 5s linear infinite;
+      width: 50rem;
+      height: 10rem;
+    }
+    margin-bottom: 2.125rem;
+  }
+
+  &__title {
+    color: $black-2;
+    margin-top: 2.125rem;
+    margin-bottom: 2.125rem;
+  }
+
+  &__description {
+    color: $gray-1;
+  }
+
+  &__metaverse {
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+   
+    svg {
+      animation: rotate-s 5s linear infinite;
+
+    }
+  }
+
+}
+
+@media (max-width: 1300px) {
+  .meta-pool {
+    .row {
+      justify-content: space-around !important;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .meta-pool {
+    &__left-col {
+      display: none;
+    }
+  }
+}
+
+@keyframes rotate-s {
+  from{ transform: rotate(0deg); }
+  to{ transform: rotate(360deg); }
+}
+
+/* TODO: purecss
+
+.right-parallelogram-container {
+    width: $container-width;
+    position: absolute;
+    top: -4rem;
+    left: -15rem;
+}
+
+.rectangle-right {
+  box-sizing: content-box;
+  width: $container-width;
+  height: $container-height;
+  border-radius: 30px;
+  text-overflow: clip;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: -60rem;
+  
+  //background: linear-gradient(90deg, #6CB9FF 1.47%, #0067C6 98.18%);
+  //background-image: url('../../../static/Rectangle-24.png');
+}
+
+.parallelogram-right {
+  box-sizing: content-box;
+  height:  $container-height;
+
+  border-radius: 30px;
+  color: rgba(0, 0, 0, 1);
+
+  text-overflow: clip;
+  transform: skewX(-20deg);
+  background: linear-gradient(90deg, #6CB9FF 1.47%, #0067C6 98.18%);
+  //background-image: url('../../../static/Rectangle-24.png');
+  opacity: 0.2;
+}
+
+*/

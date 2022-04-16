@@ -1,0 +1,23 @@
+@import "@scss/variables";
+
+.meta-hub {
+  background-color: $white;
+  padding: 2rem;
+  margin: 0 auto;
+
+  &__title {
+    color: $black-2;
+    opacity: $default-opacity;
+  }
+
+  &__description {
+    color: $gray-1;
+    opacity: $default-opacity;
+  }
+}
+
+@media (min-width: 1300px) {
+  .meta-hub {
+    padding: 4.5rem;
+  }
+}

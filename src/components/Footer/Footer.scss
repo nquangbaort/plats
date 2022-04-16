@@ -1,0 +1,36 @@
+@import "@scss/variables";
+
+.footer {
+    &__info {
+        background-color: #F5FBFF;
+        padding: 5.75rem 1rem 0.75rem 1rem;
+    }
+
+    &__logo {
+        margin-bottom: 2rem;
+    }
+
+    &__title {
+        color: $blue-1;
+        margin-bottom: 1.5rem;
+    }
+
+    &__item {
+        color: $gray-1
+    }
+
+    &__copyright {
+        color: $white;
+        background: $blue-1;
+        text-align: center;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    .footer__info {
+        padding-left: 8.5rem;
+        padding-right: 8.5rem;
+    }
+  }
+  
